@@ -1,0 +1,18 @@
+{
+  "name": "listadejogos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Jean Martins de Melo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "i": "^0.3.6",
+    "nodemon": "^2.0.12",
+    "nonpm": "^0.1.0"
+  }
+}
