@@ -3,16 +3,27 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "i": "^0.3.6",
+    "mongoose": "^6.0.2",
+    "nonpm": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-Martins22/Projetos-JavaScript.git"
+  },
   "author": "Jean Martins de Melo",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "i": "^0.3.6",
-    "nodemon": "^2.0.12",
-    "nonpm": "^0.1.0"
-  }
+  "bugs": {
+    "url": "https://github.com/Jean-Martins22/Projetos-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Jean-Martins22/Projetos-JavaScript#readme"
 }
